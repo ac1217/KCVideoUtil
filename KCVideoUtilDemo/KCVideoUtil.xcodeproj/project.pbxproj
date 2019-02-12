@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072A6C562212739F00F74123 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C552212739F00F74123 /* AppDelegate.m */; };
+		072A6C592212739F00F74123 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C582212739F00F74123 /* ViewController.m */; };
+		072A6C5C2212739F00F74123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072A6C5A2212739F00F74123 /* Main.storyboard */; };
+		072A6C5E221273A100F74123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072A6C5D221273A100F74123 /* Assets.xcassets */; };
+		072A6C61221273A100F74123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072A6C5F221273A100F74123 /* LaunchScreen.storyboard */; };
+		072A6C64221273A100F74123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C63221273A100F74123 /* main.m */; };
+		072A6C6E221273A100F74123 /* KCVideoUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C6D221273A100F74123 /* KCVideoUtilTests.m */; };
+		072A6C79221273A100F74123 /* KCVideoUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C78221273A100F74123 /* KCVideoUtilUITests.m */; };
+		072A6CB72212757100F74123 /* KCVideoGranter.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C872212757100F74123 /* KCVideoGranter.m */; };
+		072A6CB82212757100F74123 /* KCVideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C892212757100F74123 /* KCVideoEditor.m */; };
+		072A6CB92212757100F74123 /* KCVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C8E2212757100F74123 /* KCVideoCamera.m */; };
+		072A6CBA2212757100F74123 /* KCVideoCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C8F2212757100F74123 /* KCVideoCaptureView.m */; };
+		072A6CBB2212757100F74123 /* KCVideoWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C902212757100F74123 /* KCVideoWriter.m */; };
+		072A6CBC2212757100F74123 /* KCVideoProcesser.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C932212757100F74123 /* KCVideoProcesser.m */; };
+		072A6CBD2212757100F74123 /* KCVideoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C942212757100F74123 /* KCVideoHelper.m */; };
+		072A6CBE2212757100F74123 /* KCVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C962212757100F74123 /* KCVideoRecorder.m */; };
+		072A6CBF2212757100F74123 /* KCVideoFuse.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C9A2212757100F74123 /* KCVideoFuse.m */; };
+		072A6CC02212757100F74123 /* KCVideoFragment.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6C9E2212757100F74123 /* KCVideoFragment.m */; };
+		072A6CC12212757100F74123 /* KCVideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6CA02212757100F74123 /* KCVideoInfo.m */; };
+		072A6CC22212757100F74123 /* KCVideoStickers.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6CA12212757100F74123 /* KCVideoStickers.m */; };
+		072A6CC32212757100F74123 /* KCVideoStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6CA22212757100F74123 /* KCVideoStyle.m */; };
+		072A6CC52212757100F74123 /* KCVideoFuseCIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6CA72212757100F74123 /* KCVideoFuseCIFilter.m */; };
+		072A6CC62212757100F74123 /* KCVideoEffectFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6CA82212757100F74123 /* KCVideoEffectFilter.m */; };
+		072A6CC72212757100F74123 /* KCVideoFuseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6CAD2212757100F74123 /* KCVideoFuseFilter.m */; };
+		072A6CC92212757100F74123 /* KCVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6CB22212757100F74123 /* KCVideoPlayer.m */; };
+		072A6CCA2212757100F74123 /* KCVideoFusePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6CB32212757100F74123 /* KCVideoFusePlayer.m */; };
+		072A6CCB2212757100F74123 /* KCVideoFragmentPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 072A6CB42212757100F74123 /* KCVideoFragmentPlayer.m */; };
+		072A6CCD2212759D00F74123 /* KGSVideoUtil.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 072A6CCC2212759D00F74123 /* KGSVideoUtil.bundle */; };
+		072A6CD0221275BA00F74123 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072A6CCF221275B900F74123 /* GPUImage.framework */; };
+		072A6CD1221275C900F74123 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072A6CCF221275B900F74123 /* GPUImage.framework */; };
+		072A6CD2221275C900F74123 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 072A6CCF221275B900F74123 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		072A6C6A221273A100F74123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072A6C492212739F00F74123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072A6C502212739F00F74123;
+			remoteInfo = KCVideoUtil;
+		};
+		072A6C75221273A100F74123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072A6C492212739F00F74123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072A6C502212739F00F74123;
+			remoteInfo = KCVideoUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		072A6CD3221275C900F74123 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				072A6CD2221275C900F74123 /* GPUImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		072A6C512212739F00F74123 /* KCVideoUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCVideoUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		072A6C542212739F00F74123 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		072A6C552212739F00F74123 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		072A6C572212739F00F74123 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		072A6C582212739F00F74123 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		072A6C5B2212739F00F74123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		072A6C5D221273A100F74123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072A6C60221273A100F74123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		072A6C62221273A100F74123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072A6C63221273A100F74123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		072A6C69221273A100F74123 /* KCVideoUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCVideoUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		072A6C6D221273A100F74123 /* KCVideoUtilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCVideoUtilTests.m; sourceTree = "<group>"; };
+		072A6C6F221273A100F74123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072A6C74221273A100F74123 /* KCVideoUtilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCVideoUtilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		072A6C78221273A100F74123 /* KCVideoUtilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCVideoUtilUITests.m; sourceTree = "<group>"; };
+		072A6C7A221273A100F74123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072A6C872212757100F74123 /* KCVideoGranter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoGranter.m; sourceTree = "<group>"; };
+		072A6C882212757100F74123 /* KCVideoMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoMacro.h; sourceTree = "<group>"; };
+		072A6C892212757100F74123 /* KCVideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoEditor.m; sourceTree = "<group>"; };
+		072A6C8C2212757100F74123 /* KCVideoWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoWriter.h; sourceTree = "<group>"; };
+		072A6C8D2212757100F74123 /* KCVideoProcesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoProcesser.h; sourceTree = "<group>"; };
+		072A6C8E2212757100F74123 /* KCVideoCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoCamera.m; sourceTree = "<group>"; };
+		072A6C8F2212757100F74123 /* KCVideoCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoCaptureView.m; sourceTree = "<group>"; };
+		072A6C902212757100F74123 /* KCVideoWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoWriter.m; sourceTree = "<group>"; };
+		072A6C912212757100F74123 /* KCVideoCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoCaptureView.h; sourceTree = "<group>"; };
+		072A6C922212757100F74123 /* KCVideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoCamera.h; sourceTree = "<group>"; };
+		072A6C932212757100F74123 /* KCVideoProcesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoProcesser.m; sourceTree = "<group>"; };
+		072A6C942212757100F74123 /* KCVideoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoHelper.m; sourceTree = "<group>"; };
+		072A6C952212757100F74123 /* KCVideoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoUtil.h; sourceTree = "<group>"; };
+		072A6C962212757100F74123 /* KCVideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoRecorder.m; sourceTree = "<group>"; };
+		072A6C972212757100F74123 /* KCVideoGranter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoGranter.h; sourceTree = "<group>"; };
+		072A6C982212757100F74123 /* KCVideoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoHelper.h; sourceTree = "<group>"; };
+		072A6C9A2212757100F74123 /* KCVideoFuse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoFuse.m; sourceTree = "<group>"; };
+		072A6C9B2212757100F74123 /* KCVideoStickers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoStickers.h; sourceTree = "<group>"; };
+		072A6C9C2212757100F74123 /* KCVideoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoInfo.h; sourceTree = "<group>"; };
+		072A6C9D2212757100F74123 /* KCVideoStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoStyle.h; sourceTree = "<group>"; };
+		072A6C9E2212757100F74123 /* KCVideoFragment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoFragment.m; sourceTree = "<group>"; };
+		072A6C9F2212757100F74123 /* KCVideoFuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoFuse.h; sourceTree = "<group>"; };
+		072A6CA02212757100F74123 /* KCVideoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoInfo.m; sourceTree = "<group>"; };
+		072A6CA12212757100F74123 /* KCVideoStickers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoStickers.m; sourceTree = "<group>"; };
+		072A6CA22212757100F74123 /* KCVideoStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoStyle.m; sourceTree = "<group>"; };
+		072A6CA32212757100F74123 /* KCVideoFragment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoFragment.h; sourceTree = "<group>"; };
+		072A6CA52212757100F74123 /* KCVideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoEditor.h; sourceTree = "<group>"; };
+		072A6CA72212757100F74123 /* KCVideoFuseCIFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoFuseCIFilter.m; sourceTree = "<group>"; };
+		072A6CA82212757100F74123 /* KCVideoEffectFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoEffectFilter.m; sourceTree = "<group>"; };
+		072A6CAA2212757100F74123 /* KCVideoFuseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoFuseFilter.h; sourceTree = "<group>"; };
+		072A6CAB2212757100F74123 /* KCVideoFuseCIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoFuseCIFilter.h; sourceTree = "<group>"; };
+		072A6CAC2212757100F74123 /* KCVideoEffectFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoEffectFilter.h; sourceTree = "<group>"; };
+		072A6CAD2212757100F74123 /* KCVideoFuseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoFuseFilter.m; sourceTree = "<group>"; };
+		072A6CAF2212757100F74123 /* KCVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoRecorder.h; sourceTree = "<group>"; };
+		072A6CB12212757100F74123 /* KCVideoFragmentPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoFragmentPlayer.h; sourceTree = "<group>"; };
+		072A6CB22212757100F74123 /* KCVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoPlayer.m; sourceTree = "<group>"; };
+		072A6CB32212757100F74123 /* KCVideoFusePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoFusePlayer.m; sourceTree = "<group>"; };
+		072A6CB42212757100F74123 /* KCVideoFragmentPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCVideoFragmentPlayer.m; sourceTree = "<group>"; };
+		072A6CB52212757100F74123 /* KCVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoPlayer.h; sourceTree = "<group>"; };
+		072A6CB62212757100F74123 /* KCVideoFusePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCVideoFusePlayer.h; sourceTree = "<group>"; };
+		072A6CCC2212759D00F74123 /* KGSVideoUtil.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = KGSVideoUtil.bundle; path = ../../KGSVideoUtil.bundle; sourceTree = "<group>"; };
+		072A6CCF221275B900F74123 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GPUImage.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072A6C4E2212739F00F74123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072A6CD0221275BA00F74123 /* GPUImage.framework in Frameworks */,
+				072A6CD1221275C900F74123 /* GPUImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072A6C66221273A100F74123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072A6C71221273A100F74123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072A6C482212739F00F74123 = {
+			isa = PBXGroup;
+			children = (
+				072A6C532212739F00F74123 /* KCVideoUtil */,
+				072A6C6C221273A100F74123 /* KCVideoUtilTests */,
+				072A6C77221273A100F74123 /* KCVideoUtilUITests */,
+				072A6C522212739F00F74123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		072A6C522212739F00F74123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				072A6C512212739F00F74123 /* KCVideoUtil.app */,
+				072A6C69221273A100F74123 /* KCVideoUtilTests.xctest */,
+				072A6C74221273A100F74123 /* KCVideoUtilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		072A6C532212739F00F74123 /* KCVideoUtil */ = {
+			isa = PBXGroup;
+			children = (
+				072A6CCE221275B900F74123 /* GPUImageSDK */,
+				072A6CCC2212759D00F74123 /* KGSVideoUtil.bundle */,
+				072A6C862212757100F74123 /* KCVideoUtil */,
+				072A6C542212739F00F74123 /* AppDelegate.h */,
+				072A6C552212739F00F74123 /* AppDelegate.m */,
+				072A6C572212739F00F74123 /* ViewController.h */,
+				072A6C582212739F00F74123 /* ViewController.m */,
+				072A6C5A2212739F00F74123 /* Main.storyboard */,
+				072A6C5D221273A100F74123 /* Assets.xcassets */,
+				072A6C5F221273A100F74123 /* LaunchScreen.storyboard */,
+				072A6C62221273A100F74123 /* Info.plist */,
+				072A6C63221273A100F74123 /* main.m */,
+			);
+			path = KCVideoUtil;
+			sourceTree = "<group>";
+		};
+		072A6C6C221273A100F74123 /* KCVideoUtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				072A6C6D221273A100F74123 /* KCVideoUtilTests.m */,
+				072A6C6F221273A100F74123 /* Info.plist */,
+			);
+			path = KCVideoUtilTests;
+			sourceTree = "<group>";
+		};
+		072A6C77221273A100F74123 /* KCVideoUtilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				072A6C78221273A100F74123 /* KCVideoUtilUITests.m */,
+				072A6C7A221273A100F74123 /* Info.plist */,
+			);
+			path = KCVideoUtilUITests;
+			sourceTree = "<group>";
+		};
+		072A6C862212757100F74123 /* KCVideoUtil */ = {
+			isa = PBXGroup;
+			children = (
+				072A6C872212757100F74123 /* KCVideoGranter.m */,
+				072A6C882212757100F74123 /* KCVideoMacro.h */,
+				072A6C892212757100F74123 /* KCVideoEditor.m */,
+				072A6C8B2212757100F74123 /* Record */,
+				072A6C942212757100F74123 /* KCVideoHelper.m */,
+				072A6C952212757100F74123 /* KCVideoUtil.h */,
+				072A6C962212757100F74123 /* KCVideoRecorder.m */,
+				072A6C972212757100F74123 /* KCVideoGranter.h */,
+				072A6C982212757100F74123 /* KCVideoHelper.h */,
+				072A6C992212757100F74123 /* Model */,
+				072A6CA52212757100F74123 /* KCVideoEditor.h */,
+				072A6CA62212757100F74123 /* Filter */,
+				072A6CAF2212757100F74123 /* KCVideoRecorder.h */,
+				072A6CB02212757100F74123 /* Player */,
+			);
+			name = KCVideoUtil;
+			path = ../../KCVideoUtil;
+			sourceTree = "<group>";
+		};
+		072A6C8B2212757100F74123 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				072A6C8C2212757100F74123 /* KCVideoWriter.h */,
+				072A6C8D2212757100F74123 /* KCVideoProcesser.h */,
+				072A6C8E2212757100F74123 /* KCVideoCamera.m */,
+				072A6C8F2212757100F74123 /* KCVideoCaptureView.m */,
+				072A6C902212757100F74123 /* KCVideoWriter.m */,
+				072A6C912212757100F74123 /* KCVideoCaptureView.h */,
+				072A6C922212757100F74123 /* KCVideoCamera.h */,
+				072A6C932212757100F74123 /* KCVideoProcesser.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		072A6C992212757100F74123 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				072A6C9A2212757100F74123 /* KCVideoFuse.m */,
+				072A6C9B2212757100F74123 /* KCVideoStickers.h */,
+				072A6C9C2212757100F74123 /* KCVideoInfo.h */,
+				072A6C9D2212757100F74123 /* KCVideoStyle.h */,
+				072A6C9E2212757100F74123 /* KCVideoFragment.m */,
+				072A6C9F2212757100F74123 /* KCVideoFuse.h */,
+				072A6CA02212757100F74123 /* KCVideoInfo.m */,
+				072A6CA12212757100F74123 /* KCVideoStickers.m */,
+				072A6CA22212757100F74123 /* KCVideoStyle.m */,
+				072A6CA32212757100F74123 /* KCVideoFragment.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		072A6CA62212757100F74123 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				072A6CA72212757100F74123 /* KCVideoFuseCIFilter.m */,
+				072A6CA82212757100F74123 /* KCVideoEffectFilter.m */,
+				072A6CAA2212757100F74123 /* KCVideoFuseFilter.h */,
+				072A6CAB2212757100F74123 /* KCVideoFuseCIFilter.h */,
+				072A6CAC2212757100F74123 /* KCVideoEffectFilter.h */,
+				072A6CAD2212757100F74123 /* KCVideoFuseFilter.m */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		072A6CB02212757100F74123 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				072A6CB12212757100F74123 /* KCVideoFragmentPlayer.h */,
+				072A6CB22212757100F74123 /* KCVideoPlayer.m */,
+				072A6CB32212757100F74123 /* KCVideoFusePlayer.m */,
+				072A6CB42212757100F74123 /* KCVideoFragmentPlayer.m */,
+				072A6CB52212757100F74123 /* KCVideoPlayer.h */,
+				072A6CB62212757100F74123 /* KCVideoFusePlayer.h */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		072A6CCE221275B900F74123 /* GPUImageSDK */ = {
+			isa = PBXGroup;
+			children = (
+				072A6CCF221275B900F74123 /* GPUImage.framework */,
+			);
+			path = GPUImageSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		072A6C502212739F00F74123 /* KCVideoUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072A6C7D221273A100F74123 /* Build configuration list for PBXNativeTarget "KCVideoUtil" */;
+			buildPhases = (
+				072A6C4D2212739F00F74123 /* Sources */,
+				072A6C4E2212739F00F74123 /* Frameworks */,
+				072A6C4F2212739F00F74123 /* Resources */,
+				072A6CD3221275C900F74123 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCVideoUtil;
+			productName = KCVideoUtil;
+			productReference = 072A6C512212739F00F74123 /* KCVideoUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		072A6C68221273A100F74123 /* KCVideoUtilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072A6C80221273A100F74123 /* Build configuration list for PBXNativeTarget "KCVideoUtilTests" */;
+			buildPhases = (
+				072A6C65221273A100F74123 /* Sources */,
+				072A6C66221273A100F74123 /* Frameworks */,
+				072A6C67221273A100F74123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072A6C6B221273A100F74123 /* PBXTargetDependency */,
+			);
+			name = KCVideoUtilTests;
+			productName = KCVideoUtilTests;
+			productReference = 072A6C69221273A100F74123 /* KCVideoUtilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		072A6C73221273A100F74123 /* KCVideoUtilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072A6C83221273A100F74123 /* Build configuration list for PBXNativeTarget "KCVideoUtilUITests" */;
+			buildPhases = (
+				072A6C70221273A100F74123 /* Sources */,
+				072A6C71221273A100F74123 /* Frameworks */,
+				072A6C72221273A100F74123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072A6C76221273A100F74123 /* PBXTargetDependency */,
+			);
+			name = KCVideoUtilUITests;
+			productName = KCVideoUtilUITests;
+			productReference = 072A6C74221273A100F74123 /* KCVideoUtilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		072A6C492212739F00F74123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Erica;
+				TargetAttributes = {
+					072A6C502212739F00F74123 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					072A6C68221273A100F74123 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 072A6C502212739F00F74123;
+					};
+					072A6C73221273A100F74123 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 072A6C502212739F00F74123;
+					};
+				};
+			};
+			buildConfigurationList = 072A6C4C2212739F00F74123 /* Build configuration list for PBXProject "KCVideoUtil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 072A6C482212739F00F74123;
+			productRefGroup = 072A6C522212739F00F74123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				072A6C502212739F00F74123 /* KCVideoUtil */,
+				072A6C68221273A100F74123 /* KCVideoUtilTests */,
+				072A6C73221273A100F74123 /* KCVideoUtilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072A6C4F2212739F00F74123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072A6C61221273A100F74123 /* LaunchScreen.storyboard in Resources */,
+				072A6CCD2212759D00F74123 /* KGSVideoUtil.bundle in Resources */,
+				072A6C5E221273A100F74123 /* Assets.xcassets in Resources */,
+				072A6C5C2212739F00F74123 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072A6C67221273A100F74123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072A6C72221273A100F74123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072A6C4D2212739F00F74123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072A6CBC2212757100F74123 /* KCVideoProcesser.m in Sources */,
+				072A6CC22212757100F74123 /* KCVideoStickers.m in Sources */,
+				072A6C592212739F00F74123 /* ViewController.m in Sources */,
+				072A6CCA2212757100F74123 /* KCVideoFusePlayer.m in Sources */,
+				072A6CC52212757100F74123 /* KCVideoFuseCIFilter.m in Sources */,
+				072A6CB82212757100F74123 /* KCVideoEditor.m in Sources */,
+				072A6CC92212757100F74123 /* KCVideoPlayer.m in Sources */,
+				072A6CCB2212757100F74123 /* KCVideoFragmentPlayer.m in Sources */,
+				072A6CB92212757100F74123 /* KCVideoCamera.m in Sources */,
+				072A6CBF2212757100F74123 /* KCVideoFuse.m in Sources */,
+				072A6CC02212757100F74123 /* KCVideoFragment.m in Sources */,
+				072A6CC32212757100F74123 /* KCVideoStyle.m in Sources */,
+				072A6C64221273A100F74123 /* main.m in Sources */,
+				072A6CBB2212757100F74123 /* KCVideoWriter.m in Sources */,
+				072A6CBA2212757100F74123 /* KCVideoCaptureView.m in Sources */,
+				072A6CC12212757100F74123 /* KCVideoInfo.m in Sources */,
+				072A6C562212739F00F74123 /* AppDelegate.m in Sources */,
+				072A6CBE2212757100F74123 /* KCVideoRecorder.m in Sources */,
+				072A6CC72212757100F74123 /* KCVideoFuseFilter.m in Sources */,
+				072A6CB72212757100F74123 /* KCVideoGranter.m in Sources */,
+				072A6CBD2212757100F74123 /* KCVideoHelper.m in Sources */,
+				072A6CC62212757100F74123 /* KCVideoEffectFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072A6C65221273A100F74123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072A6C6E221273A100F74123 /* KCVideoUtilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072A6C70221273A100F74123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072A6C79221273A100F74123 /* KCVideoUtilUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072A6C6B221273A100F74123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072A6C502212739F00F74123 /* KCVideoUtil */;
+			targetProxy = 072A6C6A221273A100F74123 /* PBXContainerItemProxy */;
+		};
+		072A6C76221273A100F74123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072A6C502212739F00F74123 /* KCVideoUtil */;
+			targetProxy = 072A6C75221273A100F74123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		072A6C5A2212739F00F74123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072A6C5B2212739F00F74123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		072A6C5F221273A100F74123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072A6C60221273A100F74123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		072A6C7B221273A100F74123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		072A6C7C221273A100F74123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		072A6C7E221273A100F74123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8KXJ7KY8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KCVideoUtil/GPUImageSDK",
+				);
+				INFOPLIST_FILE = KCVideoUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Erica.KCVideoUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		072A6C7F221273A100F74123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8KXJ7KY8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KCVideoUtil/GPUImageSDK",
+				);
+				INFOPLIST_FILE = KCVideoUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Erica.KCVideoUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		072A6C81221273A100F74123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8KXJ7KY8;
+				INFOPLIST_FILE = KCVideoUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Erica.KCVideoUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCVideoUtil.app/KCVideoUtil";
+			};
+			name = Debug;
+		};
+		072A6C82221273A100F74123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8KXJ7KY8;
+				INFOPLIST_FILE = KCVideoUtilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Erica.KCVideoUtilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCVideoUtil.app/KCVideoUtil";
+			};
+			name = Release;
+		};
+		072A6C84221273A100F74123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8KXJ7KY8;
+				INFOPLIST_FILE = KCVideoUtilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Erica.KCVideoUtilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCVideoUtil;
+			};
+			name = Debug;
+		};
+		072A6C85221273A100F74123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8KXJ7KY8;
+				INFOPLIST_FILE = KCVideoUtilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Erica.KCVideoUtilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KCVideoUtil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		072A6C4C2212739F00F74123 /* Build configuration list for PBXProject "KCVideoUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072A6C7B221273A100F74123 /* Debug */,
+				072A6C7C221273A100F74123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072A6C7D221273A100F74123 /* Build configuration list for PBXNativeTarget "KCVideoUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072A6C7E221273A100F74123 /* Debug */,
+				072A6C7F221273A100F74123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072A6C80221273A100F74123 /* Build configuration list for PBXNativeTarget "KCVideoUtilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072A6C81221273A100F74123 /* Debug */,
+				072A6C82221273A100F74123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072A6C83221273A100F74123 /* Build configuration list for PBXNativeTarget "KCVideoUtilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072A6C84221273A100F74123 /* Debug */,
+				072A6C85221273A100F74123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 072A6C492212739F00F74123 /* Project object */;
+}
